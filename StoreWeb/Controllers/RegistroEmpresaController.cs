@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace StoreWeb.Controllers
 {
-    public class HomeController : Controller
+    public class RegistroEmpresaController : Controller
     {
-        public ActionResult Index()
+        public ActionResult RegistroEmpresa()
         {
             return View();
         }

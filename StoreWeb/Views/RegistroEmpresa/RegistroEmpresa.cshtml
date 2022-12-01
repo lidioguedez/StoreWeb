@@ -32,7 +32,7 @@
             <form action="/" method="post">
                 <div class="divregistroempresa" style="display:block">
 
-                    <div class="col">
+                    <div class="row">
                         <div class="col-md-3">
                             <span>
                                 <label>
@@ -44,7 +44,7 @@
 
                     <br /><br /><br />
 
-                    <div class="col">
+                    <div class="row">
                         <div class="col-md-3">
                             <img src="~/Content/images/img_logo/TuLogo.png" alt="Avtar" width="80px" class="img-circle previsualizar" />
                             <label for="imagen" class="input-label"><i class="fa fa-cloud-upload"></i>Subir imagen</label>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <div class="col-md-3">
 
                         </div>
@@ -79,27 +79,27 @@
                         <div class="col-md-2">
                             <span><label for="slpais"><b>Pais:</b></label></span>
                             <select class="form-control" id="slpais" name="slpais">
-                                @foreach (var item in Model.listPais)
+                                @*@foreach (var item in Model.listPais)
                                 {
                                     <option value="@item.idpais">@item.pais</option>
-                                }
+                                }*@
                             </select>
                         </div>
 
                         <div class="col-md-2">
                             <span><label for="slmoneda"><b>Moneda:</b></label></span>
                             <select class="form-control" id="slmoneda" name="slmoneda">
-                                @foreach (var item in Model.listMoneda)
+                                @*@foreach (var item in Model.listMoneda)
                                 {
                                     <option value="@item.idmoneda">@item.moneda</option>
-                                }
+                                }*@
                             </select>
 
                             <br />
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <div class="col-md-3">
                         </div>
 
@@ -110,7 +110,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <div class="col-md-3">
 
                         </div>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <br />
                         <div class="col-md-3">
 
@@ -135,27 +135,27 @@
                         <div class="col-md-2">
                             <span><label for="sltipoimpuesto"><b>Tipo Impuesto:</b></label></span>
                             <select class="form-control" id="sltipoimpuesto" name="sltipoimpuesto">
-                                @foreach (var item in Model.listTImpuesto)
+                                @*@foreach (var item in Model.listTImpuesto)
                                 {
                                     <option value="@item.idtimpuestos">@item.timpuestos</option>
-                                }
+                                }*@
                             </select>
                         </div>
 
                         <div class="col-md-2">
                             <span><label><b>Porcentaje:</b></label></span>
                             <select class="form-control" id="slporcentaje" name="slporcentaje">
-                                @foreach (var item in Model.listPImpuestos)
+                                @*@foreach (var item in Model.listPImpuestos)
                                 {
                                     <option value="@item.idpimpuestos">@item.pimpuestos</option>
-                                }
+                                }*@
                             </select>
 
                             <br />
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <br />
                         <div class="col-md-3">
 
@@ -175,7 +175,7 @@
                 </div>
                 <div class="divregistroempresa" style="display:block">
 
-                    <div class="col">
+                    <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-md-9">
                             <span><label for="txtusername">Nombre administrador</label></span>
@@ -184,7 +184,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <br />
                         <div class="col-md-3"></div>
                         <div class="col-md-3">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <br />
                         <div class="col-md-3">
 
@@ -227,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="row">
                         <br />
                         <div class="col-md-3">
 

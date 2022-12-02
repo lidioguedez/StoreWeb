@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\modelList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -331,6 +332,16 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\app\ajustesinventario.js" />
+    <Content Include="Scripts\app\departamentos.js" />
+    <Content Include="Scripts\app\empleados.js" />
+    <Content Include="Scripts\app\inventario.js" />
+    <Content Include="Scripts\app\login.js" />
+    <Content Include="Scripts\app\panel.js" />
+    <Content Include="Scripts\app\productos.js" />
+    <Content Include="Scripts\app\promociones.js" />
+    <Content Include="Scripts\app\proveedores.js" />
+    <Content Include="Scripts\app\registroempresa.js" />
     <Content Include="Scripts\js\bootstrap.js" />
     <Content Include="Scripts\js\bootstrap.min.js" />
     <None Include="Scripts\js\jquery-3.4.1.intellisense.js" />
@@ -344,6 +355,9 @@
     <Content Include="Scripts\js\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\js\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\js\modernizr-2.8.3.js" />
+    <Content Include="Scripts\js\table.js" />
+    <Content Include="Scripts\js\validaciones.js" />
+    <Content Include="Scripts\js\validacionPassword.js" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -361,9 +375,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\plugins\Validarcontraseñas\js\" />
-    <Folder Include="Models\" />
-    <Folder Include="Scripts\app\" />
-    <Folder Include="Views\RegistroEmpresa\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -373,6 +384,12 @@
     <None Include="packages.config" />
     <Content Include="Scripts\js\jquery-3.4.1.min.map" />
     <Content Include="Scripts\js\jquery-3.4.1.slim.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CNTI365.FACTUR.ENTITY\abdisoft.entity.csproj">
+      <Project>{efdceef5-be80-4771-af6d-95eeae66cdd9}</Project>
+      <Name>abdisoft.entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

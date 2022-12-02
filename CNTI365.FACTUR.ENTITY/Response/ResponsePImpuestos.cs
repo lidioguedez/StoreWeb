@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CNTI365.FACTUR.ENTITY.Response
 {
-    public class ResponseMoneda
+    public class ResponsePImpuestos
     {
-        public int idmoneda { get; set; }
-        public string moneda { get; set; }
+        public int idpimpuestos { get; set; }
+        public int pimpuestos { get; set; }
     }
 }

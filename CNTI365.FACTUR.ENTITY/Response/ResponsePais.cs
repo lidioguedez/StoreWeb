@@ -8,5 +8,7 @@ namespace CNTI365.FACTUR.ENTITY.Response
 {
     public class ResponsePais
     {
+        public int idpais { get; set; }
+        public string pais { get; set; }
     }
 }

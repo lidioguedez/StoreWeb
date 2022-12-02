@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace CNTI365.FACTUR.Models
+namespace StoreWeb.Models
 {
     public class modelList
     {
         public List<ResponsePais> listPais { get; set; }
         public List<ResponseMoneda> listMoneda { get; set; }
-        
+        public List<ResponsePImpuestos> listPImpuestos { get; set; }
+
     }
 }

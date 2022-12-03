@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CNTI365.FACTUR.ENTITY.Response
+namespace StoreWeb.Entity.Response
 {
     public class ResponsePais
     {

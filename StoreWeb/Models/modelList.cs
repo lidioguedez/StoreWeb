@@ -1,4 +1,4 @@
-﻿using CNTI365.FACTUR.ENTITY.Response;
+﻿using StoreWeb.Entity.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;

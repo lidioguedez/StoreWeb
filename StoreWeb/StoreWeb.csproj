@@ -386,9 +386,17 @@
     <Content Include="Scripts\js\jquery-3.4.1.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\StoreWeb.DataAccess\StoreWeb.DataAccess.csproj">
+      <Project>{54c97ed5-7d4d-472c-9f09-2986e44d1dda}</Project>
+      <Name>StoreWeb.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StoreWeb.Entity\StoreWeb.Entity.csproj">
       <Project>{efdceef5-be80-4771-af6d-95eeae66cdd9}</Project>
       <Name>StoreWeb.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StoreWeb.Logic\StoreWeb.Logic.csproj">
+      <Project>{af552223-86da-4a66-a91e-38b7b1284bc0}</Project>
+      <Name>StoreWeb.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

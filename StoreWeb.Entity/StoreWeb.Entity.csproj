@@ -7,8 +7,8 @@
     <ProjectGuid>{EFDCEEF5-BE80-4771-AF6D-95EEAE66CDD9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CNTI365.FACTUR.ENTITY</RootNamespace>
-    <AssemblyName>CNTI365.FACTUR.ENTITY</AssemblyName>
+    <RootNamespace>StoreWeb.Entity</RootNamespace>
+    <AssemblyName>StoreWeb.Entity</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
